@@ -1,0 +1,43 @@
+.orbit(role='region', aria-label='Favorite Space Pictures', data-orbit='')
+  ul.orbit-container
+    button.orbit-previous
+      span.show-for-sr Previous Slide
+      | &#x25C0;&#xFE0E;
+    |     
+    button.orbit-next
+      span.show-for-sr Next Slide
+      | &#x25B6;&#xFE0E;
+    |
+    li.is-active.orbit-slide
+      img.orbit-image(src='assets/img/orbit/01.jpg', alt='Space')
+      |
+      figcaption.orbit-caption Space, the final frontier.
+    |
+    li.orbit-slide
+      img.orbit-image(src='assets/img/orbit/02.jpg', alt='Space')
+      |
+      figcaption.orbit-caption Lets Rocket!
+    |
+    li.orbit-slide
+      img.orbit-image(src='assets/img/orbit/03.jpg', alt='Space')
+      |
+      figcaption.orbit-caption Encapsulating
+    |
+    li.orbit-slide
+      img.orbit-image(src='assets/img/orbit/04.jpg', alt='Space')
+      |
+      figcaption.orbit-caption Outta This World
+  |
+  nav.orbit-bullets
+    button.is-active(data-slide='0')
+      span.show-for-sr First slide details.
+      span.show-for-sr Current Slide
+    |
+    button(data-slide='1')
+      span.show-for-sr Second slide details.
+    |
+    button(data-slide='2')
+      span.show-for-sr Third slide details.
+    |
+    button(data-slide='3')
+      span.show-for-sr Fourth slide details.
