@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "19127",
+"creatorBuild": "19137",
 "files": {
 	"\/dist\/css\/app.css": {
 		"fileType": 16,
@@ -158,6 +158,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/src\/pages\/includes\/_mixins.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/pages\/includes\/_mixins.jade",
+		"outputAbbreviatedPath": "\/dist\/_mixins.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
 	"\/src\/pages\/includes\/_scripts.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
@@ -180,12 +191,45 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
-	"\/src\/pages\/source.jade": {
+	"\/src\/pages\/templates\/_default.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/pages\/templates\/_default.jade",
+		"outputAbbreviatedPath": "\/dist\/_default.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
+	"\/src\/pages\/templates\/_layout.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/pages\/templates\/_layout.jade",
+		"outputAbbreviatedPath": "\/dist\/_layout.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
+	"\/src\/pages\/templates\/layout.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
+		"inputAbbreviatedPath": "\/src\/pages\/templates\/layout.jade",
+		"outputAbbreviatedPath": "\/dist\/layout.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
+	"\/src\/pages\/templates\/source.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/pages\/source.jade",
+		"inputAbbreviatedPath": "\/src\/pages\/templates\/source.jade",
 		"outputAbbreviatedPath": "\/dist\/source.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -1736,6 +1780,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/src\/scss\/03_modules\/_colors.scss",
 		"outputAbbreviatedPath": "\/dist\/css\/_colors.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 1,
+		"useLibsass": 0
+		},
+	"\/src\/scss\/03_modules\/_functions.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/scss\/03_modules\/_functions.scss",
+		"outputAbbreviatedPath": "\/dist\/css\/_functions.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,

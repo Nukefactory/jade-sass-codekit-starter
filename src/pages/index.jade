@@ -1,16 +1,12 @@
-doctype html
-html(class='no-js', lang='en')
-  head
-    meta(charset='utf-8')
-    meta(http-equiv='x-ua-compatible', content='ie=edge')
-    meta(name='viewport', content='width=device-width, initial-scale=1.0')
-    title Nukefactory
-    link(rel='stylesheet', href='css/app.css')
-  body
-    include ./includes/_menu-centered.html
-    include ./includes/_basic-orbit.html
+//-index
+extends ./templates/layout
 
+block content
+  h1 Test title
 
+  +blog_post('Hello World')
+    p This is a hello world post
+  +blog_post
 
-
-    include ./includes/_scripts.jade
+block footer
+  Copyright &copy; 2016 Nukefactory

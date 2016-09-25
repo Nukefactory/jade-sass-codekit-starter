@@ -3,9 +3,9 @@
 /* Variables */
 
 // Adjust width accordingly (use even #'s)
-$logo-width: 150px;
+$logo-width: 65px;
 // Reduce px value to increase space between logo and menu text
-$logo-padding: $logo-width - 40px;
+$logo-padding: $logo-width - 13px;
 // Leave alone
 $logo-margin: - ($logo-width / 2);
 
@@ -27,37 +27,50 @@ $logo-margin: - ($logo-width / 2);
 /* Medium-Up Navigation */
 @media only screen and (min-width: 40rem) {
 
-  .logo-wrapper {
-    position: relative;
-
-    .logo {
-      width: $logo-width;
-      height:  92px;
-      position: absolute;
-      left: 50%;
-      right: 50%;
-      top: -6px;
-      margin-left: $logo-margin;
+  nav#nav-menu{
+    margin: 10px 0;
+    background-color: $menu-background;
+    a:link {
+      color: $white;
     }
-  }
+    .logo-wrapper {
+      position: relative;
 
-  // Right part
-  .top-bar-right {
-    width: 50%;
-    padding-left: $logo-padding;
-
-    ul {
-      float: left;
+      .logo {
+        width: $logo-width;
+        height:  65px;
+        position: absolute;
+        left: 50%;
+        right: 50%;
+        top: -13px;
+        margin-left: $logo-margin;
+        background: url('../images/nukefactory-logo.svg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+      }
     }
-  }
 
-  // Left part
-  .top-bar-left {
-    width:  50%;
-    padding-right: $logo-padding;
+    // Right part
+    .top-bar-right {
+      width: 50%;
+      padding-left: $logo-padding;
 
-    ul {
-      float: right;
+      ul {
+        float: left;
+        background-color: $menu-background;
+      }
+    }
+
+    // Left part
+    .top-bar-left {
+      width:  50%;
+      padding-right: $logo-padding;
+
+      ul {
+        float: right;
+        background-color: $menu-background;
+      }
     }
   }
 }
