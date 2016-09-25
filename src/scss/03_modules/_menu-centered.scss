@@ -29,7 +29,7 @@ $logo-margin: - ($logo-width / 2);
 
   nav#nav-menu{
     margin: 10px 0;
-    background-color: $menu-background;
+    background-color: $nf-menu;
     a:link {
       color: $white;
     }
@@ -58,7 +58,7 @@ $logo-margin: - ($logo-width / 2);
 
       ul {
         float: left;
-        background-color: $menu-background;
+        background-color: $nf-menu;
       }
     }
 
@@ -69,7 +69,7 @@ $logo-margin: - ($logo-width / 2);
 
       ul {
         float: right;
-        background-color: $menu-background;
+        background-color: $nf-menu;
       }
     }
   }

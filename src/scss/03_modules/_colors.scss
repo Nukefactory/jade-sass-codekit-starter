@@ -2,19 +2,35 @@
 // Color definitions
 //-----
 
-
+//Vintage colors
+$nf-yellow: rgba(235,165,55,1.0);
+$nf-brown: rgba(150,82,21,1.0);
+$nf-blue: rgba(7,24,100,1.0);
+$nf-dark-blue: rgba(1,7,52,1.0);
+$nf-beige: rgba(152,141,105,1.0);
+$nf-grey: rgba(184,187,174,1.0);
 
 //-----
 // Gradient definitions
 //-----
 
-@mixin linear-gradient($direction, $color-stops...) {
-  @if is-direction($direction) == false {
-    $color-stops: $direction, $color-stops;
-    $direction: 180deg;
-  }
-
-  background: nth(nth($color-stops, 1), 1);
-  background: -webkit-linear-gradient(legacy-direction($direction), $color-stops);
-  background: linear-gradient($direction, $color-stops);
+@mixin nf-background-linear-grad () {
+  @include linear-gradient(to right, $nf-brown 0%, $nf-yellow 50%, $nf-brown 100%);
 }
+@mixin nf-background-radial-grad () {
+  @include radial-gradient($nf-yellow, $nf-brown);
+}
+
+@mixin nf-wrapper-radial-grad (){
+  @include radial-gradient($nf-blue, $nf-dark-blue);
+}
+//-----
+// Template colors
+//-----
+
+//Color locations
+$nf-background: $nf-yellow;
+$nf-wrapper: $nf-blue;
+$nf-footer: $nf-brown;
+$nf-menu: $nf-dark-blue;
+$nf-post-background: $nf-grey;

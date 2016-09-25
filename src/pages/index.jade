@@ -2,11 +2,10 @@
 extends ./templates/layout
 
 block content
-  h1 Test title
+  .row
+    .column.small-12
+      h1 Test title
 
-  +blog_post('Hello World')
-    p This is a hello world post
-  +blog_post
-
-block footer
-  Copyright &copy; 2016 Nukefactory
+      +blog_post('Hello World')
+        p This is a hello world post
+      +blog_post

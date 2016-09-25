@@ -5,7 +5,7 @@
 @import '01_frameworks/01_frameworks';
 @import '02_plugins/02_plugins';
 @import '03_modules/03_modules';
-@import '04_pages/04_pages';
+
 
 @include foundation-global-styles;
 @include foundation-grid;
@@ -51,3 +51,5 @@
 
 @include motion-ui-transitions;
 @include motion-ui-animations;
+
+@import '04_pages/04_pages';

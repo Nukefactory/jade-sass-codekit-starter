@@ -11,12 +11,32 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/dist\/index.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/dist\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/dist\/js\/app.min.js": {
 		"fileType": 64,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/dist\/js\/app.min.js",
 		"outputAbbreviatedPath": "\/dist\/js\/app.min.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/dist\/js\/footer.min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/dist\/js\/footer.min.js",
+		"outputAbbreviatedPath": "\/dist\/js\/footer.min.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -96,6 +116,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/src\/js\/footer.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 1,
+		"inputAbbreviatedPath": "\/src\/js\/footer.js",
+		"outputAbbreviatedPath": "\/dist\/js\/footer.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/src\/pages\/includes\/_basic-header.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
@@ -134,6 +165,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/src\/pages\/includes\/_basic-orbit.jade",
 		"outputAbbreviatedPath": "\/dist\/_basic-orbit.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
+	"\/src\/pages\/includes\/_footer.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/pages\/includes\/_footer.jade",
+		"outputAbbreviatedPath": "\/dist\/_footer.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
@@ -249,7 +291,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/01_frameworks\/foundation\/_foundation.scss": {
 		"createSourceMap": 0,
@@ -265,7 +307,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/01_frameworks\/foundation\/_global.scss": {
 		"createSourceMap": 0,
@@ -281,7 +323,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/01_frameworks\/foundation\/components\/_accordion-menu.scss": {
 		"createSourceMap": 0,
@@ -297,7 +339,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/01_frameworks\/foundation\/components\/_accordion.scss": {
 		"createSourceMap": 0,
@@ -313,7 +355,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/01_frameworks\/foundation\/components\/_badge.scss": {
 		"createSourceMap": 0,
@@ -329,7 +371,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/01_frameworks\/foundation\/components\/_breadcrumbs.scss": {
 		"createSourceMap": 0,
@@ -345,7 +387,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/01_frameworks\/foundation\/components\/_button-group.scss": {
 		"createSourceMap": 0,
@@ -361,7 +403,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/01_frameworks\/foundation\/components\/_button.scss": {
 		"createSourceMap": 0,
@@ -377,7 +419,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/01_frameworks\/foundation\/components\/_callout.scss": {
 		"createSourceMap": 0,
@@ -393,7 +435,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/01_frameworks\/foundation\/components\/_close-button.scss": {
 		"createSourceMap": 0,
@@ -409,7 +451,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/01_frameworks\/foundation\/components\/_drilldown.scss": {
 		"createSourceMap": 0,
@@ -425,7 +467,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/01_frameworks\/foundation\/components\/_dropdown-menu.scss": {
 		"createSourceMap": 0,
@@ -441,7 +483,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/01_frameworks\/foundation\/components\/_dropdown.scss": {
 		"createSourceMap": 0,
@@ -457,7 +499,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/01_frameworks\/foundation\/components\/_flex-video.scss": {
 		"createSourceMap": 0,
@@ -473,7 +515,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/01_frameworks\/foundation\/components\/_flex.scss": {
 		"createSourceMap": 0,
@@ -489,7 +531,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/01_frameworks\/foundation\/components\/_float.scss": {
 		"createSourceMap": 0,
@@ -505,7 +547,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/01_frameworks\/foundation\/components\/_label.scss": {
 		"createSourceMap": 0,
@@ -521,7 +563,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/01_frameworks\/foundation\/components\/_media-object.scss": {
 		"createSourceMap": 0,
@@ -537,7 +579,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/01_frameworks\/foundation\/components\/_menu-icon.scss": {
 		"createSourceMap": 0,
@@ -553,7 +595,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/01_frameworks\/foundation\/components\/_menu.scss": {
 		"createSourceMap": 0,
@@ -569,7 +611,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/01_frameworks\/foundation\/components\/_off-canvas.scss": {
 		"createSourceMap": 0,
@@ -585,7 +627,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/01_frameworks\/foundation\/components\/_orbit.scss": {
 		"createSourceMap": 0,
@@ -601,7 +643,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/01_frameworks\/foundation\/components\/_pagination.scss": {
 		"createSourceMap": 0,
@@ -617,7 +659,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/01_frameworks\/foundation\/components\/_progress-bar.scss": {
 		"createSourceMap": 0,
@@ -633,7 +675,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/01_frameworks\/foundation\/components\/_reveal.scss": {
 		"createSourceMap": 0,
@@ -649,7 +691,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/01_frameworks\/foundation\/components\/_slider.scss": {
 		"createSourceMap": 0,
@@ -665,7 +707,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/01_frameworks\/foundation\/components\/_sticky.scss": {
 		"createSourceMap": 0,
@@ -681,7 +723,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/01_frameworks\/foundation\/components\/_switch.scss": {
 		"createSourceMap": 0,
@@ -697,7 +739,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/01_frameworks\/foundation\/components\/_table.scss": {
 		"createSourceMap": 0,
@@ -713,7 +755,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/01_frameworks\/foundation\/components\/_tabs.scss": {
 		"createSourceMap": 0,
@@ -729,7 +771,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/01_frameworks\/foundation\/components\/_thumbnail.scss": {
 		"createSourceMap": 0,
@@ -745,7 +787,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/01_frameworks\/foundation\/components\/_title-bar.scss": {
 		"createSourceMap": 0,
@@ -761,7 +803,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/01_frameworks\/foundation\/components\/_tooltip.scss": {
 		"createSourceMap": 0,
@@ -777,7 +819,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/01_frameworks\/foundation\/components\/_top-bar.scss": {
 		"createSourceMap": 0,
@@ -793,7 +835,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/01_frameworks\/foundation\/components\/_visibility.scss": {
 		"createSourceMap": 0,
@@ -809,7 +851,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/01_frameworks\/foundation\/forms\/_checkbox.scss": {
 		"createSourceMap": 0,
@@ -825,7 +867,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/01_frameworks\/foundation\/forms\/_error.scss": {
 		"createSourceMap": 0,
@@ -841,7 +883,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/01_frameworks\/foundation\/forms\/_fieldset.scss": {
 		"createSourceMap": 0,
@@ -857,7 +899,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/01_frameworks\/foundation\/forms\/_forms.scss": {
 		"createSourceMap": 0,
@@ -873,7 +915,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/01_frameworks\/foundation\/forms\/_help-text.scss": {
 		"createSourceMap": 0,
@@ -889,7 +931,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/01_frameworks\/foundation\/forms\/_input-group.scss": {
 		"createSourceMap": 0,
@@ -905,7 +947,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/01_frameworks\/foundation\/forms\/_label.scss": {
 		"createSourceMap": 0,
@@ -921,7 +963,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/01_frameworks\/foundation\/forms\/_meter.scss": {
 		"createSourceMap": 0,
@@ -937,7 +979,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/01_frameworks\/foundation\/forms\/_progress.scss": {
 		"createSourceMap": 0,
@@ -953,7 +995,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/01_frameworks\/foundation\/forms\/_range.scss": {
 		"createSourceMap": 0,
@@ -969,7 +1011,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/01_frameworks\/foundation\/forms\/_select.scss": {
 		"createSourceMap": 0,
@@ -985,7 +1027,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/01_frameworks\/foundation\/forms\/_text.scss": {
 		"createSourceMap": 0,
@@ -1001,7 +1043,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/01_frameworks\/foundation\/grid\/_classes.scss": {
 		"createSourceMap": 0,
@@ -1017,7 +1059,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/01_frameworks\/foundation\/grid\/_column.scss": {
 		"createSourceMap": 0,
@@ -1033,7 +1075,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/01_frameworks\/foundation\/grid\/_flex-grid.scss": {
 		"createSourceMap": 0,
@@ -1049,7 +1091,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/01_frameworks\/foundation\/grid\/_grid.scss": {
 		"createSourceMap": 0,
@@ -1065,7 +1107,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/01_frameworks\/foundation\/grid\/_gutter.scss": {
 		"createSourceMap": 0,
@@ -1081,7 +1123,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/01_frameworks\/foundation\/grid\/_layout.scss": {
 		"createSourceMap": 0,
@@ -1097,7 +1139,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/01_frameworks\/foundation\/grid\/_position.scss": {
 		"createSourceMap": 0,
@@ -1113,7 +1155,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/01_frameworks\/foundation\/grid\/_row.scss": {
 		"createSourceMap": 0,
@@ -1129,7 +1171,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/01_frameworks\/foundation\/grid\/_size.scss": {
 		"createSourceMap": 0,
@@ -1145,7 +1187,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/01_frameworks\/foundation\/settings\/_settings.scss": {
 		"createSourceMap": 0,
@@ -1161,7 +1203,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/01_frameworks\/foundation\/typography\/_alignment.scss": {
 		"createSourceMap": 0,
@@ -1177,7 +1219,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/01_frameworks\/foundation\/typography\/_base.scss": {
 		"createSourceMap": 0,
@@ -1193,7 +1235,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/01_frameworks\/foundation\/typography\/_helpers.scss": {
 		"createSourceMap": 0,
@@ -1209,7 +1251,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/01_frameworks\/foundation\/typography\/_print.scss": {
 		"createSourceMap": 0,
@@ -1225,7 +1267,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/01_frameworks\/foundation\/typography\/_typography.scss": {
 		"createSourceMap": 0,
@@ -1241,7 +1283,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/01_frameworks\/foundation\/util\/_breakpoint.scss": {
 		"createSourceMap": 0,
@@ -1257,7 +1299,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/01_frameworks\/foundation\/util\/_color.scss": {
 		"createSourceMap": 0,
@@ -1273,7 +1315,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/01_frameworks\/foundation\/util\/_flex.scss": {
 		"createSourceMap": 0,
@@ -1289,7 +1331,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/01_frameworks\/foundation\/util\/_mixins.scss": {
 		"createSourceMap": 0,
@@ -1305,7 +1347,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/01_frameworks\/foundation\/util\/_selector.scss": {
 		"createSourceMap": 0,
@@ -1321,7 +1363,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/01_frameworks\/foundation\/util\/_unit.scss": {
 		"createSourceMap": 0,
@@ -1337,7 +1379,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/01_frameworks\/foundation\/util\/_util.scss": {
 		"createSourceMap": 0,
@@ -1353,7 +1395,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/01_frameworks\/foundation\/util\/_value.scss": {
 		"createSourceMap": 0,
@@ -1369,7 +1411,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/02_plugins\/_02_plugins.scss": {
 		"createSourceMap": 0,
@@ -1385,7 +1427,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/02_plugins\/motion-ui\/_motion-ui.scss": {
 		"createSourceMap": 0,
@@ -1401,7 +1443,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/02_plugins\/motion-ui\/src\/_classes.scss": {
 		"createSourceMap": 0,
@@ -1417,7 +1459,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/02_plugins\/motion-ui\/src\/_motion-ui.scss": {
 		"createSourceMap": 0,
@@ -1433,7 +1475,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/02_plugins\/motion-ui\/src\/_settings.scss": {
 		"createSourceMap": 0,
@@ -1449,7 +1491,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/02_plugins\/motion-ui\/src\/effects\/_fade.scss": {
 		"createSourceMap": 0,
@@ -1465,7 +1507,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/02_plugins\/motion-ui\/src\/effects\/_hinge.scss": {
 		"createSourceMap": 0,
@@ -1481,7 +1523,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/02_plugins\/motion-ui\/src\/effects\/_shake.scss": {
 		"createSourceMap": 0,
@@ -1497,7 +1539,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/02_plugins\/motion-ui\/src\/effects\/_slide.scss": {
 		"createSourceMap": 0,
@@ -1513,7 +1555,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/02_plugins\/motion-ui\/src\/effects\/_spin.scss": {
 		"createSourceMap": 0,
@@ -1529,7 +1571,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/02_plugins\/motion-ui\/src\/effects\/_wiggle.scss": {
 		"createSourceMap": 0,
@@ -1545,7 +1587,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/02_plugins\/motion-ui\/src\/effects\/_zoom.scss": {
 		"createSourceMap": 0,
@@ -1561,7 +1603,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/02_plugins\/motion-ui\/src\/transitions\/_fade.scss": {
 		"createSourceMap": 0,
@@ -1577,7 +1619,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/02_plugins\/motion-ui\/src\/transitions\/_hinge.scss": {
 		"createSourceMap": 0,
@@ -1593,7 +1635,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/02_plugins\/motion-ui\/src\/transitions\/_slide.scss": {
 		"createSourceMap": 0,
@@ -1609,7 +1651,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/02_plugins\/motion-ui\/src\/transitions\/_spin.scss": {
 		"createSourceMap": 0,
@@ -1625,7 +1667,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/02_plugins\/motion-ui\/src\/transitions\/_zoom.scss": {
 		"createSourceMap": 0,
@@ -1641,7 +1683,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/02_plugins\/motion-ui\/src\/util\/_animation.scss": {
 		"createSourceMap": 0,
@@ -1657,7 +1699,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/02_plugins\/motion-ui\/src\/util\/_args.scss": {
 		"createSourceMap": 0,
@@ -1673,7 +1715,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/02_plugins\/motion-ui\/src\/util\/_keyframe.scss": {
 		"createSourceMap": 0,
@@ -1689,7 +1731,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/02_plugins\/motion-ui\/src\/util\/_selector.scss": {
 		"createSourceMap": 0,
@@ -1705,7 +1747,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/02_plugins\/motion-ui\/src\/util\/_series.scss": {
 		"createSourceMap": 0,
@@ -1721,7 +1763,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/02_plugins\/motion-ui\/src\/util\/_transition.scss": {
 		"createSourceMap": 0,
@@ -1737,7 +1779,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/02_plugins\/motion-ui\/src\/util\/_unit.scss": {
 		"createSourceMap": 0,
@@ -1753,7 +1795,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/03_modules\/_03_modules.scss": {
 		"createSourceMap": 0,
@@ -1769,7 +1811,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/03_modules\/_colors.scss": {
 		"createSourceMap": 0,
@@ -1785,7 +1827,23 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
+		},
+	"\/src\/scss\/03_modules\/_footer.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/scss\/03_modules\/_footer.scss",
+		"outputAbbreviatedPath": "\/dist\/css\/_footer.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 1,
+		"useLibsass": 1
 		},
 	"\/src\/scss\/03_modules\/_functions.scss": {
 		"createSourceMap": 0,
@@ -1801,7 +1859,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/03_modules\/_menu-centered.scss": {
 		"createSourceMap": 0,
@@ -1817,7 +1875,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/03_modules\/_menus.sass": {
 		"createSourceMap": 0,
@@ -1865,7 +1923,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/03_modules\/_variables.scss": {
 		"createSourceMap": 0,
@@ -1881,7 +1939,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/04_pages\/_04_pages.scss": {
 		"createSourceMap": 0,
@@ -1897,7 +1955,23 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
+		},
+	"\/src\/scss\/04_pages\/_layout.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/scss\/04_pages\/_layout.sass",
+		"outputAbbreviatedPath": "\/dist\/css\/_layout.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 1,
+		"useLibsass": false
 		},
 	"\/src\/scss\/_settings.scss": {
 		"createSourceMap": 0,
@@ -1913,7 +1987,7 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/src\/scss\/app.scss": {
 		"createSourceMap": 1,
@@ -1929,7 +2003,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		}
 	},
 "hooks": [
@@ -2538,7 +2612,7 @@
 	"sassDebugStyle": 0,
 	"sassDecimalPrecision": 10,
 	"sassOutputStyle": 0,
-	"sassUseLibsass": 0,
+	"sassUseLibsass": 1,
 	"shouldRunAutoprefixer": 1,
 	"shouldRunBless": 1,
 	"skippedItemsString": ".svn, .git, .hg, log, _logs, _cache, cache, logs, node_modules",
