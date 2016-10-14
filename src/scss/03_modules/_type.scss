@@ -1,0 +1,16 @@
+@font-face {
+  font-family: BebasNeue;
+  src: url("../fonts/BebasNeue.otf") format("opentype");
+}
+
+#nf-title {
+  h1{
+    color: $nf-heading;
+    text-align: center;
+    padding: $global-padding;
+    text-transform: uppercase;
+    font-family: 'BebasNeue';
+    font-size: 5em;
+    letter-spacing: .2rem;
+  }
+}

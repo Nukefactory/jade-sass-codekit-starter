@@ -3,9 +3,13 @@ extends ./templates/layout
 
 block content
   .row
-    .column.small-12
-      h1 Test title
+    .column.small-12#nf-title
+      h1 Nukefactory
+  .row.nf-posts
+    .column.small-12.large-6
+      +blog_post('Item one')
+        p Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Nullam quis risus eget urna mollis ornare vel eu leo.
 
-      +blog_post('Hello World')
-        p This is a hello world post
-      +blog_post
+    .column.small-12.large-6
+      +blog_post('Item two')
+        p Donec sed odio dui. Maecenas faucibus mollis interdum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
